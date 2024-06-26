@@ -1,0 +1,8 @@
+let ongko = 25 
+if (ongko % 2 == 0 ) {
+    console.log(ongko + " adalah angka genap");
+} else {
+    console.log( ongko + " adalah angka ganjil");
+}
+
+console.log(ongko % 2 == 0 ? "Even Number" : "Odd number");
